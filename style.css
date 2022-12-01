@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.border{
+    width: 50%;
+    height: 75vh;
+    margin: 0 auto;
+    background-color: white;
+    border: 16px solid orange;
+    position: relative;
+    top: 12.5%;
+}
+.name{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 310px;
+}
+.guess{
+    font-size: 2rem;
+    font-family: cursive;
+    text-transform: uppercase;
+    position: absolute;
+    top: 180px;
+    left: 310px;
+}
+.coin{
+    width: 11%;
+    height: 15%;
+    position: absolute;
+    top: 280px;
+    left: 370px;
+    animation-name: round-coin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes round-coin{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.spin{
+    width: 15%;
+    height: 5%;
+    border-radius: 10%;
+    background-color: orange;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+}
+.random-num{
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 500px;
+    left: 160px;
+    color: #000;
+}
+.title{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 700px;
+}
